@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pt-1 {
+  padding-top: 1rem;
+}
+
+.pb-1 {
+  padding-bottom: 1rem;
+}
+
+.mb-1{
+  margin-bottom: 1rem;
+}
+
+.header {
+min-height: 90vh;
+background-image: url("igor-miske-Px3iBXV-4TU-unsplash.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+z-index: 1;
+
+}
+
+.header__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  z-index: 5;
+}
+
+.header__left {
+  flex: 0.8;
+}
+
+.brandLogo{
+  display: flex;
+  align-items: center;
+}
+.only-w {
+  font-size: 1.5rem;
+  color: #c86814;
+}
+.logo{
+  padding-left: 5px;
+}
+.header__right {
+  flex: 0.2;
+  justify-content: flex-end; /* This aligns the content to the right within the flex container. */
+}
+
+.header__link {
+  list-style: none;
+  padding: 5px 0;
+  
+}
+
+.header__link>a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.header__link>a:hover {
+color: #c86814;
+}
+
+
+/* about section */
+.about {
+  background: #f5f2f0;
+}
+
+.profileCards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profileCard {
+  padding: 10px;
+  background: #fff;
+  border: 2px solid lightgray;
+  transition: transform 0.3s ease-in;
+}
+
+.profileCard:hover {
+  transform: translateY(-5px);
+}
+.profileImage > img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.profileDesignation {
+  color: #333;
+  font-weight: normal;
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.githubIcon, .linkedinIcon {
+  font-size: 2rem;
+  color: #c86814;
+}
+
+.contact__details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#map { 
+  width: 500px;
+  height: 250px; 
+}
+
+.spaceDesignation {
+  margin-top: 2rem;
+}
+
+.contact__left p {
+  margin: 2rem 0;
+}
+
+.motto-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-left: 5px solid #FF5733; /* Left border as the quote frame */
+  margin: 599px auto;
+  max-width: 80%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.motto {
+  font-style: italic;
+  color: #333; /* Text color within the quote frame */
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
